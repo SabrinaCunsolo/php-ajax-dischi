@@ -1,8 +1,28 @@
 main {
     background-color: $color_main;
-}
+    padding: $spacing * 4;
 
-.container {
-    max-width: 1170px;
-    margin: auto;
+    .container {
+        max-width: 1170px;
+        margin: auto;
+
+        .container-dischi {
+            display: flex;
+            flex-wrap: wrap;
+
+            .card {
+                width: $spacing * 30;
+                background-color: $color_card;
+                padding: $spacing * 2;
+                margin: $spacing * 2;
+                &:hover {
+                    background-color: #4a2f4f;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
 }

@@ -1,10 +1,13 @@
 //font
-
+$font_family: 'Montserrat', sans-serif;
+$font_size: 14px;
+$spacing: 10px;
 
 //colori
 $bg_header: black;
 $color_header: white;
 $color_main: #212121;
+$color_card: #514f4f;
 
 //
-$height: 80px;
+$height: $font_size * 4;
